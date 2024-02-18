@@ -1,6 +1,11 @@
-### Notes
+## What is this?
+A project I made with a team for a hackathon!
+I did the programming (frontend and backend) and the team did the design, idea and worked a bit on the CSS
 ## How do you run this?
-You have to run plantcoppaapi (https://replit.com/@daniala5/PlantCoppaAPI) and this to get it working.
+This doesn't run... (if you did run it you would need to run the repl's) it's just for me to check out the code sometimes.
+## Credits
+I used the Repl Auth React Example 2022 on replit as a template for the authentication
+### Notes
 ## What the heck is React?!?
 Basically if you want to edit the HTML or Javascript, just scroll down to the return() and the HTML is there.
 Here's a explanation:
