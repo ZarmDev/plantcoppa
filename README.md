@@ -1,6 +1,8 @@
 ## What is this?
 A project I made with a team for a hackathon!
-I did the programming (frontend and backend) and the team did the design, idea and worked a bit on the CSS
+I did the programming (frontend and backend) and the team did the design, idea and a bit of the CSS animations, logos and text on the home screen
+## Fun video
+https://github.com/ZarmDev/plantcoppa/assets/80705328/e992f7c4-1b2f-41f7-aa96-257415b46976
 ## How do you run this?
 This doesn't run... (if you did run it you would need to run the repl's) it's just for me to check out the code sometimes.
 ## Credits
