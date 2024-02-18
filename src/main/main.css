@@ -1,0 +1,240 @@
+body {
+  margin:0;
+  padding:0;
+  overflow-x: hidden;
+  color: white;
+  background-color: #271c19;
+}
+* {
+  transition: 0.5s;
+  font-family: 'Kalnia', serif;
+  font-family: 'Roboto', sans-serif;
+}
+#animation {
+  display: none;
+  z-index: 5;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #271c19;
+  animation: slide 5s ease-in-out, fadeOut 3s forwards;
+}
+.loader {
+  position: fixed;
+  background-color: #271c19;
+  display: none;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.loader {
+    /* -webkit-animation: load-out 3s;
+    animation: load-out 3s; */
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes load-out {
+    from {
+        top: 0;
+        opacity: 1;
+    }
+
+    to {
+        top: 100%;
+        opacity: 0;
+    }
+}
+
+@keyframes load-out {
+    from {
+        top: 0;
+        opacity: 1;
+    }
+
+    to {
+        top: 100%;
+        opacity: 0;
+    }
+}
+@keyframes fadeOut {
+  0% { opacity: 1; display: block; }
+  100% { opacity: 0; }
+}
+#navbar {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #55423d;
+ /* border-radius: 1px; */
+  width: 100%;
+  margin: 0;
+  padding: 1ch;
+}
+#navbar > *:not(:first-child) {
+  margin-left: 10%;
+}
+#navbar button {
+  padding: 2ch;
+}
+#navbar img {
+  width: 50px;
+  height: 50px;
+}
+img {
+  width: 40ch;
+  height: 20ch;
+}
+h1 {
+  font-size: 5ch;
+  font-family: 'Kalnia', serif;
+  font-family: 'Roboto', sans-serif;
+}
+p {
+  font-family: 'Kalnia', serif;
+  font-family: 'Roboto', sans-serif;
+}
+@keyframes fade-in {
+  from {left: 0; opacity: 0;}
+  to {left: 5vw; opacity: 1;}
+}
+button {
+  font-size: 2ch;
+  background-color: #ffc0ad;
+  /*border: solid black 2px; */
+  border-radius: 10px;
+  padding: 0.5ch;
+  font-family: 'Kalnia', serif;
+  font-family: 'Roboto', sans-serif;
+  transition: 0.5s;
+  cursor: pointer;
+  border: solid #976363 2px;
+}
+button:hover {
+  background-color: #ffc0ad;
+  opacity: 0.5;
+}
+ul {
+  list-style: none;
+}
+ul li {
+  background-color: rgba(255,192,203, 0.5);
+  width: fit-content;
+  padding: 1vw;
+  border: solid black 2px;
+  border-radius: 10px;
+  color: rgba(255,192,203, 0.8);
+}
+/* .product {
+  padding: 1ch;
+  width: 50vw;
+} */
+ul li button {
+  /* background-color: red; */
+  border: solid #6c5151 2px;
+  margin: 2px
+}
+#attention {
+  left: 5vw;
+  margin-top: 20px;
+  position: relative;
+  animation-name: fade-in;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+#home {
+  text-align: center;
+  color: white;
+}
+
+#home img {
+  border: 2px;
+  border-radius: 10px;
+  padding: 0.5ch;
+  width: 800px;
+  height: 400px
+}
+#shoppingcart{
+  cursor: pointer;
+}
+#findplants {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 10vw;
+}
+#addproduct {
+  padding: 0.5vw;
+  margin: 2vw;
+  position: fixed;
+  margin-left: none;
+  left:0;
+  width: 10vw;
+}
+#addproductpage {
+  display: grid;
+  width: 50vw;
+  position: relative;
+  left: 25vw;
+  text-align: center;
+}
+#addproductpage label {
+  font-size: 3ch;
+}
+#addproductpage input {
+  padding: 1ch;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+  font-size: 2ch;
+}
+#small {
+  margin: 0;
+  color: gray;
+  margin-bottom: 3vh;
+}
+#yourplants {
+  text-align: center;
+}
+.filter {
+  padding: 0.5vw;
+  margin: 2vw;
+  position: fixed;
+  margin-left: none;
+  left:0;
+  top: 20vh;
+  width: 10vw;
+}
+.productsDropdown {
+  display: block;
+}
+.productsDropdown button {
+  padding: 1ch;
+  width: 50vw;
+  transition: 1s;
+}
+.dropdown-content button:hover {
+  background-color: #845ea36e;
+}
+.dropdown-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease-out;
+}
+.dropdown-content img {
+  margin: 0.5vw;
+  border-radius: 5px;
+}
+.buyProduct {
+  background-color: #5e5ea3bd;
+}
+.deleteProduct {
+  background-color: #ac6767;
+}
+.dropdown .dropdown-content {
+  max-height: 100vh;
+}
