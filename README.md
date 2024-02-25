@@ -1,6 +1,6 @@
 ## What is this?
 A project I made with a team for a hackathon! (2023 - somewhere in october or something)
-I did the programming (frontend and backend) and the team did the design, idea and a bit of the CSS animations, logos and text on the home screen
+I did the programming (frontend and backend) and the team did the design, idea and the CSS animations, logos and text on the home screen
 ## Fun video
 https://github.com/ZarmDev/plantcoppa/assets/80705328/e992f7c4-1b2f-41f7-aa96-257415b46976
 ## How do you run this?
