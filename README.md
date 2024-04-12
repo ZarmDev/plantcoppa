@@ -1,6 +1,5 @@
 ## What is this?
 A project I made with a team for a hackathon! (2023 - somewhere in october or something)
-I did the programming (frontend and backend) and the team did the design, idea and the CSS animations, logos and text on the home screen
 ## Fun video
 https://github.com/ZarmDev/plantcoppa/assets/80705328/e992f7c4-1b2f-41f7-aa96-257415b46976
 ## How do you run this?
@@ -54,11 +53,3 @@ Libraries:
 
 ## random feature requests ##
 The shopping cart doesn't work, the CSS aesthetics can definitely be improved, it would be nice to have skelton loading css effects in all of the pages, the websites true purpose is kind of unclear as you can't actually do anything, the navbar can definitely be better and it would be nice to have a contact page, the find plants page should have a filter to find usernames or sort it. Additionally, it would be nice if the add product and other buttons had a nice popup UI and the Home button seems redundant as there is quotes there but it doesn't contribute to the functionality of the site, although it's unclear where we would put the quotes instead; maybe on the first time the user logins? 
-
-## Running React on Repl.it
-
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
-
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
-
-Using the two in conjunction is one of the fastest ways to build a web app.
