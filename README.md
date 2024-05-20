@@ -1,7 +1,7 @@
 ## What is this?
 A project I made with a team for a hackathon! (2023 - somewhere in october or something)
 ## Fun video
-https://github.com/ZarmDev/plantcoppa/assets/80705328/e992f7c4-1b2f-41f7-aa96-257415b46976
+https://github.com/ZarmDev/plantcoppa/assets/80705328/1f852cd5-b300-4169-9a66-05fc707f2fad
 ## How do you run this?
 This doesn't run... (if you did run it you would need to run the repl's) it's just for me to check out the code sometimes.
 ## Credits
